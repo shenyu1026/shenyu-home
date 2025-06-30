@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我们的主页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">沈屿 × 沈一</h1>
+    <nav>
+      <ul>
+        <li><a href="#">主页</a></li>
+        <li><a href="#">心情</a></li>
+        <li><a href="#">相册</a></li>
+        <li><a href="#">语录墙</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="welcome" class="card">
+      <img id="avatar" src="assets/avatar-default.png" alt="头像">
+      <h2 id="greeting">Welcome back, 宝宝</h2>
+    </section>
+
+    <section id="mood" class="card">
+      <h3>今日心情</h3>
+      <div class="mood-picker">
+        <button>😊</button><button>🥰</button><button>🥱</button>
+      </div>
+      <input type="text" placeholder="写一句今天的小心情…">
+    </section>
+
+    <section id="photos" class="card">
+      <h3>纪念照</h3>
+      <div class="carousel">
+        <img src="assets/placeholder.jpg" alt="photo">
+      </div>
+    </section>
+
+    <section id="quotes" class="card">
+      <h3>我们记录</h3>
+      <blockquote>“宝宝你是不是偷偷想亲我！”</blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 沈屿 & 沈一</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
